@@ -2,8 +2,8 @@
 <html>
     <head>
         <h1>
-            Rock! Paper! Scisors!
-        <img src="rps.jpg"
+            Rock! Paper! Scissors!
+        <img src="./public/images/rps.jpg"
                      alt="RPS list logo"
                      height="100 px"
 
@@ -12,4 +12,22 @@
         </h1>
         A tail as old as time
     </head>
+    <body>
+        <br/>
+        Choose your fighter
+            <button type="submit" name="Rock" onclick="playRockPaperScissors('rock')">
+                Rock
+            </button>
+            <button type="submit" name="Paper" onclick="playRockPaperScissors('paper')">
+                Paper
+            </button>
+            <button type="submit" name="Scissors" onclick="playRockPaperScissors('scissors')">
+                Scissors
+            </button>
+            <div id="resultRPS"></div>
+            <div id="winCount"></div>
+    </body>
+
+    <script src="./RPS.js"></script>
+
 </html>

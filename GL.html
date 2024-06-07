@@ -4,7 +4,7 @@
         <h1>
             Grocery Aid&copy
         
-        <img src="grocery.png"
+        <img src="./public/images/grocery.png"
                      alt="grocery list logo"
                      height="100 px"
 
@@ -14,4 +14,27 @@
         </h1>
         <br/> Shopping for the future!
     </head>
+    <body>
+        <br/>
+        Add items to your list
+        <form>
+            <label for="gldata">List Maker Pro:</label>
+            <input type="text" id="gldata" name="gldata" required />
+            <button type="button" onclick="addData()">
+                Add item
+            </button>
+        </form>
+
+        <table id="dataTable" border=".5">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+
+        <script src="./GL.js"></script>
+    </body>
 </html>
