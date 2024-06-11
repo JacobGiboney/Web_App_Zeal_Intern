@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <header class="header">
         <h1>
             Rock! Paper! Scissors!
+            <br/>
+            <br/>
         <img src="./public/images/rps.jpg"
                      alt="RPS list logo"
                      height="100 px"
@@ -10,11 +13,32 @@
                      >
         
         </h1>
-        A tail as old as time
+
+        </header>
+        <h4 class="secondary-header">
+            <a href="index.html">
+            Home 
+            </a> / 
+            <a href="GL.html">
+                Grocery List
+            </a> / 
+            <a href="tipcalc.html">
+            Tip calculator
+            </a> / 
+             <a href="weather.html">
+             Weather
+             </a>
+    
+        </h4>
+
+        <link rel="stylesheet" href="./stylesforhtml/rpsstyle.css">
     </head>
     <body>
         <br/>
+        <div class="button-container">
         Choose your fighter
+        <br/>
+        
             <button type="submit" name="Rock" onclick="playRockPaperScissors('rock')">
                 Rock
             </button>
@@ -24,10 +48,13 @@
             <button type="submit" name="Scissors" onclick="playRockPaperScissors('scissors')">
                 Scissors
             </button>
+            <br/>
+            <br/>
             <div id="resultRPS"></div>
             <div id="winCount"></div>
+        </div>
     </body>
 
-    <script src="./RPS.js"></script>
+    <script src="./jsForWebApp/RPS.js"></script>
 
 </html>
