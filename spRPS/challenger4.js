@@ -2,9 +2,19 @@ function playRockPaperScissors(playerChoice) {
     
     // Array of choices: Rock, Paper, Scissors
     var choices = ["rock", "paper", "scissors"];
+    var seed;
+    var computerChoice;
     
     // Randomly select computer's choice
-    var computerChoice = choices[Math.floor(Math.random() * choices.length)];
+    //var computerChoice = choices[Math.floor(Math.random() * choices.length)];
+
+    if(1 < seed && seed < 70)
+    {
+        computerChoice = choices[1];
+    }
+    else {
+        computerChoice = choices[0];
+    }
     
     if (playerChoice === computerChoice) {
         //return "It's a tie! Both chose " + playerChoice + ".";
@@ -30,6 +40,14 @@ function playRockPaperScissors(playerChoice) {
         } 
         document.getElementById("winCount").innerHTML = "Win streak: " + winCounter;
 
+        var levelCount = localStorage.getItem('levelCounter'); 
+
+        if(levelCount < 4){
+            levelCount++;
+            localStorage.setItem('levelCounter', levelCount);
+        }
+        
+
         window.location.href = 'winpage.html';
     } 
     else {
@@ -38,5 +56,7 @@ function playRockPaperScissors(playerChoice) {
 
         winCounter = 0;
         document.getElementById("winCount").innerHTML = "Win streak: " + winCounter;
+
+        window.location.href = 'losspage.html';
     } //loss
 }

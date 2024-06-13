@@ -1,15 +1,24 @@
-var buttonUnlocker
-function unlockButtons1() {
-    buttonUnlocker = 1;
 
-    unlockcheck()
-} //when the number is iterated this will allow another js function to unlock the button on the mainpage
+var i = localStorage.getItem('levelCounter');
 
-function unlockcheck() {
-    // Get the buttons to be unlocked
-    if(buttonUnlocker > 0){
-        var button1 = document.getElementById("chal2");
-        // Enable the buttons
-        button1.disabled = false;
+
+function unlockButton() {
+    // Set a flag in Local Storage to indicate the button should be unlocked
+    if (i == 1)
+    {
+        localStorage.setItem('buttonUnlocked', 'true');
+        alert('Challenger 2 unlocked!');
+    } 
+    else if (i == 2)
+    {
+        localStorage.setItem('buttonUnlocked2', 'true');
+        alert('Challenger 3 unlocked!');
     }
+    else if (i == 3)
+    {
+        localStorage.setItem('buttonUnlocked3', 'true');
+        alert('Challenger 4 unlocked!');
+    } 
+
 }
+

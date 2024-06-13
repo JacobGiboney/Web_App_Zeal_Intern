@@ -1,15 +1,21 @@
-// function unlockcheck() {
-//     // Get the buttons to be unlocked
-//     if(buttonUnlocker > 0){
-//         var button1 = document.getElementById("chal2");
-//         // Enable the buttons
-//         button1.disabled = false;
-//     }
-// }
-
-// document.getElementById("unlocker1").addEventListener("click", function() {
-//     // Here, you can add conditions to check if the task is completed
-    
-//     unlockButtons();
-    
-// });
+document.addEventListener('DOMContentLoaded', (event) => {
+    const isUnlocked = localStorage.getItem('buttonUnlocked');
+    if (isUnlocked === 'true') {
+        const targetButton = document.getElementById('chal2');
+        targetButton.disabled = false;
+    }
+});
+document.addEventListener('DOMContentLoaded', (event) => {
+    const isUnlocked = localStorage.getItem('buttonUnlocked2');
+    if (isUnlocked === 'true') {
+        const targetButton = document.getElementById('chal3');
+        targetButton.disabled = false;
+    }
+});
+document.addEventListener('DOMContentLoaded', (event) => {
+    const isUnlocked = localStorage.getItem('buttonUnlocked3');
+    if (isUnlocked === 'true') {
+        const targetButton = document.getElementById('chal4');
+        targetButton.disabled = false;
+    }
+});
