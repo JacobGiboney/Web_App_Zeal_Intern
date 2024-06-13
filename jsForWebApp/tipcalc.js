@@ -5,8 +5,9 @@
 
 function calculateTip() {
     // Check if the inputs are valid numbers
-    var billAmount = parseFloat(document.getElementById("totalBill").value)
-    var tipPercentage = parseFloat(document.getElementById("myRange").value)
+    var billAmount = parseFloat(document.getElementById("totalBill").value);
+    var tipPercentage = parseFloat(document.getElementById("myRange").value);
+
 
     if (isNaN(billAmount) || isNaN(tipPercentage)) 
     {

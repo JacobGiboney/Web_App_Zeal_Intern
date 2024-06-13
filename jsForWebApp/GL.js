@@ -24,7 +24,7 @@ function addData() {
 }
 
 function editData(button) {
-    // Get the row containing the button
+    // Get the row containing the button, parent cell -- > parent row
     var row = button.parentNode.parentNode;
 
     // Get the current data

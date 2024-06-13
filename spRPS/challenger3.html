@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <header class="header">
+        <h1>
+            Rock! Paper! Scissors!
+            <br/>
+            <br/>
+        <img src="./public/images/rps.jpg"
+                     alt="RPS list logo"
+                     height="100 px"
+
+                     >
+        
+        </h1>
+
+        </header>
+        <h4 class="secondary-header">
+            <a href="secretproject.html">
+            Quit 
+            </a> 
+    
+        </h4>
+
+        <link rel="stylesheet" href="challenger.css">
+    </head>
+    <body>
+        <br/>
+        <div class="button-container">
+        Choose your fighter
+        <br/>
+        
+            <button type="submit" name="Rock" onclick="playRockPaperScissors('rock')">
+                Rock
+            </button>
+            <button type="submit" name="Paper" onclick="playRockPaperScissors('paper')">
+                Paper
+            </button>
+            <button type="submit" name="Scissors" onclick="playRockPaperScissors('scissors')">
+                Scissors
+            </button>
+            <br/>
+            <br/>
+            <div id="resultRPS"></div>
+            <div id="winCount"></div>
+        </div>
+    </body>
+
+    <script src="challenger.js"></script>
+
+</html>

@@ -21,12 +21,18 @@ body {
     text-align: center; /* Center-align the text */
     font-size: 24px; /* Font size */
 }
+
 .secondary-header {
   background-color: #0066cc; /* Blue background color */
   color: #fff; /* White text color */
   padding: 2px; /* Padding for the content inside the header */
   text-align: center; /* Center-align the text */
   font-size: 14px; /* Font size */
+  width: 100%; /* Make header full width */
+  position: fixed; /* Fix the header at the top */
+  left: 0; /* Position it from the left of the viewport */
+  margin: 0; /* Remove default margin */
+  z-index: 1000; /* Ensure it is on top of other content */
 }
 a {
   color: #fff; /* Set link color to white */
