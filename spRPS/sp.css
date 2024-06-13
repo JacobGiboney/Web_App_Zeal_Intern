@@ -18,6 +18,18 @@ h1 {
     text-align: center; /* Center-align the text */
     font-size: 24px; /* Font size */
 }
+.secondary-header {
+    background-color: #ff0000; /* Blue background color */
+    color: #ffffcc;; /* White text color */
+    padding: 2px; /* Padding for the content inside the header */
+    text-align: center; /* Center-align the text */
+    font-size: 14px; /* Font size */
+  }
+
+  a {
+    color: #ffffcc;; /* Set link color to white */
+    text-decoration: none; /* Remove underline */
+  }
 
 button {
     background-color: #ff0000;
