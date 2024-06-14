@@ -31,15 +31,15 @@ function playRockPaperScissors(playerChoice) {
         (playerChoice === "scissors" && computerChoice === "paper")
     ) {
         //return "You win! " + playerChoice + " beats " + computerChoice + ".";
-        document.getElementById("resultRPS").innerHTML = "You win! " + playerChoice + " beats " + computerChoice + ".";
+        // document.getElementById("resultRPS").innerHTML = "You win! " + playerChoice + " beats " + computerChoice + ".";
 
-        if (winCounter === undefined){
-            winCounter = 1;
-        }
-        else{
-            winCounter += 1;
-        } 
-        document.getElementById("winCount").innerHTML = "Win streak: " + winCounter;
+        // if (winCounter === undefined){
+        //     winCounter = 1;
+        // }
+        // else{
+        //     winCounter += 1;
+        // } 
+        // document.getElementById("winCount").innerHTML = "Win streak: " + winCounter;
 
         var levelCount = localStorage.getItem('levelCounter'); 
 

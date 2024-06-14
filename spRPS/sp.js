@@ -19,3 +19,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
         targetButton.disabled = false;
     }
 });
+
+function resetStorage() {
+    // Clear local storage
+    localStorage.clear();
+
+    // Clear session storage
+    sessionStorage.clear();
+
+    // Provide feedback to the user
+    alert('Browser storage has been reset.');
+}

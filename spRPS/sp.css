@@ -3,6 +3,15 @@ body {
     font-family: 'Courier New', Courier, monospace; /* Retro font */
     margin: 0;
     padding: 0;
+    background-image: url('../public/images/rockpapersissors.jpg');
+    background-size: cover;      /* Scale the image to cover the entire element */
+    background-position: center; /* Center the image */
+    background-position-y: top;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh;               /* Ensure the body takes the full height of the viewport */
+    margin: 0;   
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -69,6 +78,7 @@ img {
     margin: 0 auto;
     border-radius: 10px;
     margin-bottom: 10px;
+    width: 90px;
 }
 
 /* Style the container for the buttons */
@@ -76,3 +86,15 @@ img {
     text-align: center;
     margin-top: 30px;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds space between images */
+}
+
+.image-container img {
+    width: 90px; /* Set a max width for images */
+    height: 100px;    /* Maintain aspect ratio of images */
+}
+

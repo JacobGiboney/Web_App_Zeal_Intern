@@ -33,13 +33,13 @@ function playRockPaperScissors(playerChoice) {
         //return "You win! " + playerChoice + " beats " + computerChoice + ".";
         document.getElementById("resultRPS").innerHTML = "You win! " + playerChoice + " beats " + computerChoice + ".";
 
-        if (winCounter === undefined){
-            winCounter = 1;
-        }
-        else{
-            winCounter += 1;
-        } 
-        document.getElementById("winCount").innerHTML = "Win streak: " + winCounter;
+        // if (winCounter === undefined){
+        //     winCounter = 1;
+        // }
+        // else{
+        //     winCounter += 1;
+        // } 
+        // document.getElementById("winCount").innerHTML = "Win streak: " + winCounter;
 
         if(levelCount === undefined){
             levelCount = 1;
@@ -63,3 +63,4 @@ function playRockPaperScissors(playerChoice) {
 function generateRandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
 } // generate a number 1-100 so i can change the odds of a particular move 
+

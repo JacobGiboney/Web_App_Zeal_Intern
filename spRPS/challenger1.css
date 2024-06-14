@@ -8,32 +8,38 @@ html, body {
 body {
     background-color: #ffffcc; /* Light yellow background */
     font-family: 'Courier New', Courier, monospace; /* Retro font */
+    background-image: url('../public/images/reprodaction-6-copy-2319041178.jpg');
+    background-size: cover;      /* Scale the image to cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh;               /* Ensure the body takes the full height of the viewport */
+    margin: 0;     
 }
 
 /* Style the h1 heading */
 h1 {
     font-size: 24px;
-    color: #ffffcc; /* Light yellow background */
+    color: #000000; /* Light yellow background */
     text-align: center;
     margin-top: 30px;
 }
 
 .header {
-    background-color: #d900ff; /* Dark background color */
-    color: #ffffcc;; /* White text color */
+    background-color: #ffffcc; /* Dark background color */
+    color: #000000;; /* White text color */
     padding: 5px; /* Padding for the content inside the header */
     text-align: center; /* Center-align the text */
     font-size: 24px; /* Font size */
 }
 .secondary-header {
-    background-color: #d900ff; /* Blue background color */
-    color: #ffffcc;; /* White text color */
+    background-color: #ffffcc; /* Blue background color */
+    color: #000000;; /* White text color */
     padding: 2px; /* Padding for the content inside the header */
     text-align: center; /* Center-align the text */
     font-size: 14px; /* Font size */
   }
   a {
-    color: #ffffcc;; /* Set link color to white */
+    color: #000000;; /* Set link color to white */
     text-decoration: none; /* Remove underline */
   }
 
@@ -66,8 +72,8 @@ input[type="text"] {
 
 /* Style the button */
 button {
-    background-color: #d900ff; /* Orange background */
-    color: #ffffcc;; /* White text */
+    background-color: #ffffcc; /* Orange background */
+    color: #000000;; /* White text */
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace; /* Retro font */
     padding: 10px 20px;
