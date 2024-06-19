@@ -1,9 +1,8 @@
 body {
-    background-color: #ffffcc;
+    background-color: #FDFFE2;
     font-family: 'Courier New', Courier, monospace; /* Retro font */
     margin: 0;
     padding: 0;
-    background-image: url('../public/images/rockpapersissors.jpg');
     background-size: cover;      /* Scale the image to cover the entire element */
     background-position: center; /* Center the image */
     background-position-y: top;
@@ -21,14 +20,14 @@ h1 {
     margin-top: 10px;
 }
 .header {
-    background-color: #FFF5E1; /* Dark background color */
+    background-color: #5A72A0; /* Dark background color */
     color: #0C1844; /* White text color */
     padding: 5px; /* Padding for the content inside the header */
     text-align: center; /* Center-align the text */
     font-size: 24px; /* Font size */
 }
 .secondary-header {
-    background-color: #C80036; /* Blue background color */
+    background-color: #5A72A0; /* Blue background color */
     color: #0C1844;; /* White text color */
     padding: 2px; /* Padding for the content inside the header */
     text-align: center; /* Center-align the text */
@@ -41,7 +40,7 @@ h1 {
   }
 
 button {
-    background-color: #C80036;
+    background-color: #83B4FF;
     color: #ffffcc;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace; /* Retro font */
@@ -61,7 +60,7 @@ button:disabled {
 }
 
 button:hover {
-    background-color: #FF6600;
+    background-color: #5A72A0;
 }
 
 a {
