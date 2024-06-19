@@ -29,4 +29,6 @@ function resetStorage() {
 
     // Provide feedback to the user
     alert('Browser storage has been reset.');
+
+    window.location.reload(true);
 }

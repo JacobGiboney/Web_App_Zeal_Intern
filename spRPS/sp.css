@@ -16,20 +16,20 @@ body {
 
 h1 {
     font-size: 24px;
-    color: #ffffcc;
+    color: #0C1844;
     text-align: center;
     margin-top: 10px;
 }
 .header {
-    background-color: #ff0000; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #FFF5E1; /* Dark background color */
+    color: #0C1844; /* White text color */
     padding: 5px; /* Padding for the content inside the header */
     text-align: center; /* Center-align the text */
     font-size: 24px; /* Font size */
 }
 .secondary-header {
-    background-color: #ff0000; /* Blue background color */
-    color: #ffffcc;; /* White text color */
+    background-color: #C80036; /* Blue background color */
+    color: #0C1844;; /* White text color */
     padding: 2px; /* Padding for the content inside the header */
     text-align: center; /* Center-align the text */
     font-size: 14px; /* Font size */
@@ -41,7 +41,7 @@ h1 {
   }
 
 button {
-    background-color: #ff0000;
+    background-color: #C80036;
     color: #ffffcc;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace; /* Retro font */
@@ -97,4 +97,10 @@ img {
     width: 90px; /* Set a max width for images */
     height: 100px;    /* Maintain aspect ratio of images */
 }
+
+.level {
+    fill: red;
+}
+
+
 
