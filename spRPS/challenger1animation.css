@@ -8,40 +8,39 @@ html, body {
 body {
     background-color: #ffffcc; /* Light yellow background */
     font-family: 'Courier New', Courier, monospace; /* Retro font */
-    background-image: url('../public/images/roman.jpg');
+    background-image: url('../public/images/reprodaction-6-copy-2319041178.jpg');
     background-size: cover;      /* Scale the image to cover the entire element */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     height: 100vh;               /* Ensure the body takes the full height of the viewport */
-    margin: 0;     
 }
 
 /* Style the h1 heading */
 h1 {
     font-size: 24px;
-    color: #000000; /* Light yellow background */
+    color: #000000; /* Black text */
     text-align: center;
     margin-top: 30px;
 }
 
 .header {
-    background-color: #ffffcc; /* Dark background color */
-    color: #000000;; /* White text color */
+    background-color: #ffffcc; /* Light yellow background */
+    color: #000000; /* Black text */
     padding: 5px; /* Padding for the content inside the header */
     text-align: center; /* Center-align the text */
     font-size: 24px; /* Font size */
 }
 .secondary-header {
-    background-color: #ffffcc; /* Blue background color */
-    color: #000000;; /* White text color */
+    background-color: #ffffcc; /* Light yellow background */
+    color: #000000; /* Black text */
     padding: 2px; /* Padding for the content inside the header */
     text-align: center; /* Center-align the text */
     font-size: 14px; /* Font size */
-  }
-  a {
-    color: #000000;; /* Set link color to white */
+}
+a {
+    color: #000000; /* Set link color to black */
     text-decoration: none; /* Remove underline */
-  }
+}
 
 /* Style the image */
 img {
@@ -72,23 +71,23 @@ input[type="text"] {
 
 /* Style the button */
 button {
-    background-color: #ffffcc; /* Orange background */
-    color: #000000;; /* White text */
+    background-color: #ffffcc; /* Light yellow background */
+    color: #000000; /* Black text */
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace; /* Retro font */
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    margin-top: 10px;
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease; /* Smooth color transition */
 }
 
-
 /* Hover effect for the button */
 button:hover {
-    background-color: #14cc00; /* Darker orange on hover */
+    background-color: #14cc00; /* Darker green on hover */
 }
+
+
 
 /* Style the table */
 table {
@@ -99,7 +98,7 @@ table {
 
 /* Style the table header */
 th {
-    background-color: #d900ff; /* Orange background */
+    background-color: #d900ff; /* Purple background */
     color: #ffffff; /* White text */
     font-size: 16px;
     padding: 10px;
@@ -156,3 +155,4 @@ td {
         top: calc(2vh - 2px); /* End position (center of the screen) */
     }
 }
+

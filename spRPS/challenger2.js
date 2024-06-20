@@ -58,6 +58,9 @@ function playRockPaperScissors(playerChoice) {
         winCounter = 0;
         document.getElementById("winCount").innerHTML = "Win streak: " + winCounter;
 
+        
+
+
         window.location.href = 'losspage.html';
     } //loss
 }
@@ -65,3 +68,8 @@ function playRockPaperScissors(playerChoice) {
 function generateRandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
 } // generate a number 1-100 so i can change the odds of a particular move 
+
+document.addEventListener('DOMContentLoaded', function() {
+    var image = document.getElementById('fallingImage');
+    image.classList.add('animate');
+});

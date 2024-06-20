@@ -17,21 +17,23 @@
     
         </h4>
 
-        <link rel="stylesheet" href="challenger1.css">
+        <link rel="stylesheet" href="challenger1animation.css">
     </head>
     <body>
-
+    
     <div class="animation-container">
         <div class="falling-image-container" alt="Falling Image" id="fallingImage" class="falling-image">
             <img src="../public/images/Goliath.jpg"
+                         alt="RPS list logo"
                          height="350 px"
 
-                         >
+                     >
         </div>
         <br/>
-        <div class="button-container">
         
         <br/>
+
+        <div class="button-container">
         
             <button type="submit" name="Rock" onclick="playRockPaperScissors('rock')">
                 Rock
@@ -43,13 +45,16 @@
                 Scissors
             </button>
         </div>
-            <br/>
-            <br/>
-            <div id="resultRPS"></div>
-            <div id="winCount"></div>
+        <div id="resultRPS"></div>
+        <div id="winCount"></div>
     </div>
+            <br/>
+            <br/>
+            
+        </div>
     </body>
 
     <script src="challenger1.js"></script>
+    <script src="../testCodeAI/animations.js"></script>
 
 </html>

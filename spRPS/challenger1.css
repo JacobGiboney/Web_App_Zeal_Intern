@@ -118,3 +118,41 @@ td {
     text-align: center;
     margin-top: 30px;
 }
+
+.falling-image-container {
+    position: relative;
+    width: 100%; /* Full width of the viewport */
+    height: 100%; /* Full height of the viewport */
+}
+
+.falling-image {
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    position: absolute;
+    top: -100px; /* Start above the visible area */
+    left: 50%;
+    transform: translateX(-50%);
+    display: none; /* Initially hidden */
+}
+
+.animation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.animate {
+    display: block; /* Show the image */
+    animation: fallToCenter 2s forwards; /* Animation lasts 2 seconds and then stops */
+}
+
+@keyframes fallToCenter {
+    0% {
+        top: -700px; /* Start position (above the screen) */
+    }
+    100% {
+        top: calc(2vh - 2px); /* End position (center of the screen) */
+    }
+}
